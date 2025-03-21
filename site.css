@@ -1,1 +1,64 @@
-body { background-color: #000; animation: spin 60s linear infinite; }.scary-face { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 100px; font-weight: bold; color: #FFF; opacity: 0; animation: fade-in 10s, fade-out 10s; animation-delay: 0s, 10s; animation-fill-mode: forwards; }.freddy-jumpscare { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; animation: jumpscare 1s; animation-delay: 10s; animation-fill-mode: forwards; }.bonny-jumpscare { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; animation: jumpscare 1s; animation-delay: 11s; animation-fill-mode: forwards; }.markiplier-face { position: fixed; top: 0; left: 0; width: 200px; height: 200px; }.foxy-jumpscare { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; animation: jumpscare 1s; animation-delay: 12s; animation-fill-mode: forwards; }.markiplier-1, .markiplier-2, .markiplier-3, .markiplier-4 { position: absolute; width: 200px; height: 200px; }.markiplier-1 { top: 0; left: 0; animation: markiplier-fade 5s; animation-delay: 0s; }.markiplier-2 { top: 0; right: 0; animation: markiplier-fade 5s; animation-delay: 2s; }.markiplier-3 { bottom: 0; left: 0; animation: markiplier-fade 5s; animation-delay: 4s; }.markiplier-4 { bottom: 0; right: 0; animation: markiplier-fade 5s; animation-delay: 6s; }.markiplier-5 { top: 50%; left: 25%; transform: translate(-50%, -50%); animation: markiplier-fade 5s; animation-delay: 8s; }.markiplier-6 { top: 50%; right: 25%; transform: translate(50%, -50%); animation: markiplier-fade 5s; animation-delay: 10s; }.markiplier-7 { top: 25%; left: 50%; transform: translate(-50%, -50%); animation: markiplier-fade 5s; animation-delay: 12s; }.markiplier-8 { top: 75%; left: 50%; transform: translate(-50%, -50%); animation: markiplier-fade 5s; animation-delay: 14s; }.markiplier-9 { top: 50%; left: 50%; transform: translate(-50%, -50%); animation: markiplier-fade 5s; animation-delay: 16s; }.markiplier-collage { position: fixed; top: 200px; left: 200px; width: 400px; height: 400px; }.bone-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; }.bone { position: absolute; width: 10px; height: 10px; background-color: #FFF; border-radius: 50%; animation: fly 5s linear infinite; }@keyframes fly { 0% { transform: translate(0, 0); } 100% { transform: translate(100vw, 100vh); } }.glorp-gif { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 50%; display: none; animation: glorp 5s; animation-delay: 10s; animation-fill-mode: forwards; }@keyframes glorp { 0% { display: none; opacity: 0; } 1% { display: block; opacity: 1; } 100% { opacity: 1; } }@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }@keyframes jumpscare { 0% { display: none; opacity: 0; } 1% { display: block; opacity: 1; } 100% { opacity: 1; } }@keyframes markiplier-fade { 0% { opacity: 0; } 100% { opacity: 1; } }.stickman { position: fixed; bottom: 0; right: 0; font-size: 12px; color: #FFF; }.anvil { position: fixed; bottom: 120px; right: 0; font-size: 12px; color: #FFF; }.jerma-collage { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }.jerma-1 { position: absolute; top: 0; left: 0; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 0s; }.jerma-2 { position: absolute; top: 0; right: 0; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 1s; }.jerma-3 { position: absolute; bottom: 0; left: 0; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 2s; }.jerma-4 { position: absolute; bottom: 0; right: 0; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 3s; }.jerma-5 { position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 4s; }.jerma-6 { position: absolute; top: 50%; right: 25%; transform: translate(50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 5s; }.jerma-7 { position: absolute; top: 25%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 6s; }.jerma-8 { position: absolute; top: 75%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 7s; }.jerma-9 { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 8s; }.jerma-10 { position: absolute; top: 10%; left: 10%; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 9s; }.jerma-11 { position: absolute; top: 10%; right: 10%; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 10s; }.jerma-12 { position: absolute; bottom: 10%; left: 10%; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 11s; }.jerma-13 { position: absolute; bottom: 10%; right: 10%; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 12s; }.jerma-14 { position: absolute; top: 20%; left: 40%; transform: translate(-50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 13s; }.jerma-15 { position: absolute; top: 80%; left: 40%; transform: translate(-50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 14s; }.jerma-16 { position: absolute; top: 50%; left: 10%; transform: translate(-50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 15s; }.jerma-17 { position: absolute; top: 50%; right: 10%; transform: translate(50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 16s; }.jerma-18 { position: absolute; top: 30%; left: 30%; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 17s; }.jerma-19 { position: absolute; top: 70%; left: 30%; width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 18s; }.jerma-20 { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; animation: jerma-fade 5s; animation-delay: 19s; }@keyframes jerma-fade { 0% { opacity: 0; } 100% { opacity: 1; } }
+body { background-color: #000; animation: spin 60s linear infinite; }
+.scary-face { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 100px; font-weight: bold; color: #FFF; opacity: 0; animation: fade-in 10s, fade-out 10s; animation-delay: 0s, 10s; animation-fill-mode: forwards; }
+.freddy-jumpscare { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; animation: jumpscare 1s; animation-delay: 10s; animation-fill-mode: forwards; }
+.bonny-jumpscare { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; animation: jumpscare 1s; animation-delay: 11s; animation-fill-mode: forwards; }
+.markiplier-face { position: fixed; top: 0; left: 0; width: 200px; height: 200px; }
+.foxy-jumpscare { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; animation: jumpscare 1s; animation-delay: 12s; animation-fill-mode: forwards; }
+.markiplier-1, .markiplier-2, .markiplier-3, .markiplier-4 { position: absolute; width: 200px; height: 200px; }
+.markiplier-1 { top: 0; left: 0; animation: markiplier-fade 5s; animation-delay: 0s; }
+.markiplier-2 { top: 0; right: 0; animation: markiplier-fade 5s; animation-delay: 2s; }
+.markiplier-3 { bottom: 0; left: 0; animation: markiplier-fade 5s; animation-delay: 4s; }
+.markiplier-4 { bottom: 0; right: 0; animation: markiplier-fade 5s; animation-delay: 6s; }
+.markiplier-5 { top: 50%; left: 25%; transform: translate(-50%, -50%); animation: markiplier-fade 5s; animation-delay: 8s; }
+.markiplier-6 { top: 50%; right: 25%; transform: translate(50%, -50%); animation: markiplier-fade 5s; animation-delay: 10s; }
+.markiplier-7 { top: 25%; left: 50%; transform: translate(-50%, -50%); animation: markiplier-fade 5s; animation-delay: 12s; }
+.markiplier-8 { top: 75%; left: 50%; transform: translate(-50%, -50%); animation: markiplier-fade 5s; animation-delay: 14s; }
+.markiplier-9 { top: 50%; left: 50%; transform: translate(-50%, -50%); animation: markiplier-fade 5s; animation-delay: 16s; }
+.markiplier-10 { top: 10%; left: 10%; animation: markiplier-fade 5s; animation-delay: 18s; }
+.markiplier-11 { top: 10%; right: 10%; animation: markiplier-fade 5s; animation-delay: 20s; }
+.markiplier-12 { bottom: 10%; left: 10%; animation: markiplier-fade 5s; animation-delay: 22s; }
+.markiplier-collage { position: fixed; top: 200px; left: 200px; width: 400px; height: 400px; }
+.bone-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; }
+.bone-1, .bone-2, .bone-3, .bone-4, .bone-5 { position: absolute; width: 200px; height: 200px; animation: bone-fly 5s linear infinite; }
+.bone-1 { top: 0; left: 0; }
+.bone-2 { top: 0; right: 0; }
+.bone-3 { bottom: 0; left: 0; }
+.bone-4 { bottom: 0; right: 0; }
+.bone-5 { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.glorp-gif { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 50%; display: none; animation: glorp 5s; animation-delay: 10s; animation-fill-mode: forwards; }
+@keyframes glorp { 0% { display: none; opacity: 0; } 1% { display: block; opacity: 1; } 100% { opacity: 1; } }
+.stickman { position: fixed; bottom: 0; right: 0; font-size: 12px; color: #FFF; }
+.anvil { position: fixed; bottom: 120px; right: 0; font-size: 12px; color: #FFF; }
+.jerma-collage { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.jerma-1, .jerma-2, .jerma-3, .jerma-4 { position: absolute; width: 100px; height: 100px; animation: jerma-fade 5s; }
+.jerma-1 { top: 0; left: 0; animation-delay: 0s; }
+.jerma-2 { top: 0; right: 0; animation-delay: 1s; }
+.jerma-3 { bottom: 0; left: 0; animation-delay: 2s; }
+.jerma-4 { bottom: 0; right: 0; animation-delay: 3s; }
+.jerma-5 { top: 50%; left: 25%; transform: translate(-50%, -50%); animation-delay: 4s; }
+.jerma-6 { top: 50%; right: 25%; transform: translate(50%, -50%); animation-delay: 5s; }
+.jerma-7 { top: 25%; left: 50%; transform: translate(-50%, -50%); animation-delay: 6s; }
+.jerma-8 { top: 75%; left: 50%; transform: translate(-50%, -50%); animation-delay: 7s; }
+.jerma-9 { top: 50%; left: 50%; transform: translate(-50%, -50%); animation-delay: 8s; }
+.jerma-10 { top: 10%; left: 10%; animation-delay: 9s; }
+.jerma-11 { top: 10%; right: 10%; animation-delay: 10s; }
+.jerma-12 { bottom: 10%; left: 10%; animation-delay: 11s; }
+.jerma-13 { bottom: 10%; right: 10%; animation-delay: 12s; }
+.jerma-14 { top: 20%; left: 40%; transform: translate(-50%, -50%); animation-delay: 13s; }
+.jerma-15 { top: 80%; left: 40%; transform: translate(-50%, -50%); animation-delay: 14s; }
+.jerma-16 { top: 50%; left: 10%; transform: translate(-50%, -50%); animation-delay: 15s; }
+.jerma-17 { top: 50%; right: 10%; transform: translate(50%, -50%); animation-delay: 16s; }
+.jerma-18 { top: 30%; left: 30%; animation-delay: 17s; }
+.jerma-19 { top: 70%; left: 30%; animation-delay: 18s; }
+.jerma-20 { top: 50%; left: 50%; transform: translate(-50%, -50%); animation-delay: 19s; }
+.game-1, .game-2, .game-3, .game-4, .game-5 { position: absolute; width: 100px; height: 100px; }
+.game-1 { top: 20%; left: 20%; }
+.game-2 { top: 20%; right: 20%; }
+.game-3 { bottom: 20%; left: 20%; }
+.game-4 { bottom: 20%; right: 20%; }
+.game-5 { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+@keyframes jumpscare { 0% { display: none; opacity: 0; } 1% { display: block; opacity: 1; } 100% { opacity: 1; } }
+@keyframes markiplier-fade { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes jerma-fade { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes bone-fly { 0% { transform: translate(0, 0); } 100% { transform: translate(100vw, 100vh); } }
