@@ -2,4 +2,5 @@
 .title { color: #2196F3; font-size: 3em; } 
  p { font-size: 1.2em; color: #333333; }  
 .logo { max-width: 100%; } 
-.gaming-image { display: block; margin: 20px auto; }
+.gaming-image { display: block; margin: 20px auto; }  
+.wojak-column {  float: left; width: 200px; padding: 10px; margin: 20px; }
