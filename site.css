@@ -1,81 +1,17 @@
 .CRT-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  background-image: radial-gradient(circle at 20% 20%, white 1%, transparent 1%), radial-gradient(circle at 80% 80%, white 1%, transparent 1%);
-  background-size: 200px 200px;
+  animation: vortex 3s cubic-bezier(0.6, 0.1, 0.3, 1.0) infinite;
 }
-.biden.game-over-text {
-  font-family: 'Press Start 2P', cursive;
-  color: #00ff00;
-  text-shadow: 
-    0 0 5px #ffff00,
-    0 0 10px #ffff00,
-    0 0 20px #ffff00,
-    0 0 30px #ff00ff,
-    0 0 40px #ff00ff,
-    0 0 50px #ff00ff;
+
+@keyframes vortex {
+  0% { transform: scale(1) rotate(0deg);}
+  25% { transform: rotate(-20deg) scale(1.1); filter: blur(1px) hue-rotate(10deg);
+ filter: drop-shadow(0 0 10px #00ff00);
 }
-.comment.retro-comment {
-  background: rgba(0,0,0,0.8);
-  border: 2px outset #0f0;
-  color: #0ff;
-  font-family: courier;
-  border-radius: 0;
-  padding: 0.5em;
+ 50% { transform: rotate(15deg) scale(0.9); filter: blur(3px) hue-rotate(90deg);
 }
-.game-terminal {
-  background: rgba(0,0,0,0.7);
-  backdrop-filter: blur(5px);
-  padding: 1em;
-  border: 4px dashed #0f0;
-  transform: translateY(-10px);
-}
-.terminal-input {
-  background: transparent;
-  color: #0ff;
-  border: none;
-  outline: none;
-  caret-color: #0f0;
-  font-family: monospace;
-}
-.game-button {
-  background: linear-gradient(to right, #0099ff, #66ccff);
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  margin-left: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px #00ffff;
-  cursor: pointer;
-}
-.game-enemy {
-  animation: swing 1.5s ease-in-out infinite;
-}
-@keyframes swing {
-  20%, 80% { transform: rotate(-15deg); }
-  40%, 60% { transform: rotate(15deg); }
-  50% { transform: rotate(-10deg); }
-  70% { transform: rotate(0deg); }
-}
-.body-container {
-  background: url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='100' height='100'><rect width='100%' height='100%' fill='%231a1a1a'/><text x='50%' y='50%' fill='red' text-anchor='middle' dominant-baseline='central'>404 gamer credits detected</text></svg>') center/cover no-repeat;
-  filter: hue-rotate(180deg);
-}
-.weary-emoji {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 15vmin;
-  color: #ff00ff;
-  z-index: 1000;
-  animation: pulse 2s ease-in-out infinite;
-}
-@keyframes pulse {
-  0%, 100% { opacity: 0.5; }
-  50% { opacity: 1; }
+ 75% { transform: rotate(-10deg) scale(1.05; filter: blur(2px) hue-rotate(180deg); }
+
+ 100% { transform: rotate(0deg) scale(1; filter: blur(0) hue-rotate(0deg); }
+}.CRT-screen {
+  filter: invert(3%);
 }
