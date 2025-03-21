@@ -1,1 +1,1 @@
-.peter-container {position: absolute; bottom: 10%; left: 60%; width: 20%; height: 10%; }.peter-image {width: 80%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }.peter-container .speech-bubble { position: absolute; top: 40%; left: 60%; font-size: 0.8em; }
+#paragraph-container { position: absolute; padding: 5%; width: 80%; height: 80%; top: 50%; left: 50%; transform: translate(-50%, -50%); overflow: auto; overflow-x: hidden; scrollbar-width: thin; }
