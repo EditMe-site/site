@@ -1,8 +1,42 @@
-.container { background-color: #FFFF00; text-align: right; font-family: Comic Sans MS, cursive, sans-serif; margin: 50px; border: 10px dotted #FFA500; animation: shake 1s infinite alternate; } 
-.title { color: #00FF00; font-size: 5em; font-weight: 900; text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5); } 
-.logo2 { max-width: 100%; animation: spin 2s linear infinite; } 
- p { font-size: 2em; color: #FA8072; text-shadow: -5px -5px 10px #FF4500; } 
-.gaming-image { display: block; margin: 20px auto; width: 70%; border: 5px solid #00FFFF; } 
-.wojak-column {  float: right;  width: 300px; padding: 20px; margin: 20px 0; background-color: #FFFFE0; border-radius: 50%; box-shadow: 10px 10px 20px #90EE90; }  
-@keyframes shake { from { transform: translateX(0); } 50% { transform: translateX(-10px); } to { transform: translateX(0); } }
-@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.container {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  font-family: monospace, sans-serif;
+  margin: 50px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.logo2 {
+  max-width: 100%;
+}
+
+ p {
+  font-size: 1.2em;
+}
+
+.gaming-image {
+  display: block;
+  margin: 20px auto;
+  border: none;
+}
+
+.wojak-column {
+  float: left;
+  width: 150px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #555;
+  text-align: center;
+}
+
+.wojak-column img {
+  width: 100%;
+}
