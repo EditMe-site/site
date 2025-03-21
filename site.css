@@ -1,17 +1,46 @@
 .CRT-screen {
-  animation: vortex 3s cubic-bezier(0.6, 0.1, 0.3, 1.0) infinite;
+  animation: vortex 5s cubic-bezier(0.6, 0.1, 0.3, 1.0) infinite;
+  filter: invert(3%) sepia(30%) hue-rotate(30deg);
+  border: 8px solid #0a0;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.4) inset;
 }
-
 @keyframes vortex {
-  0% { transform: scale(1) rotate(0deg);}
-  25% { transform: rotate(-20deg) scale(1.1); filter: blur(1px) hue-rotate(10deg);
- filter: drop-shadow(0 0 10px #00ff00);
+  0% { transform: scale(1) rotate(0deg); filter: brightness(90%); }
+  25% { transform: rotate(-15deg) scale(1.1); filter: brightness(110%); }
+  50% { transform: rotate(10deg) scale(0.95); filter: brightness(85%); }
+  75% { transform: rotate(-5deg) scale(1.05); filter: brightness(95%); }
+  100% { transform: rotate(0deg) scale(1); filter: brightness(100%); }
 }
- 50% { transform: rotate(15deg) scale(0.9); filter: blur(3px) hue-rotate(90deg);
+.game-over-text {
+  font-family: courier;
+  color: #080;
+  text-shadow: 1px 1px 2px #0f0;
 }
- 75% { transform: rotate(-10deg) scale(1.05; filter: blur(2px) hue-rotate(180deg); }
-
- 100% { transform: rotate(0deg) scale(1; filter: blur(0) hue-rotate(0deg); }
-}.CRT-screen {
-  filter: invert(3%);
+.terminal-input {
+  background: #000;
+  color: #0f0;
+  border: 2px solid #00ff00;
+}
+.historical-background {
+  position: fixed;
+  top: 0;
+  filter: grayscale(70%) brightness(80%);
+}
+.old-game-arcade {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+  filter: drop-shadow(0 0 10px #0f0);
+}
+.mojimenmoji {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 3rem;
+  animation: float 3s infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
 }
