@@ -1,1 +1,2 @@
 #paragraph-container { position: absolute; padding: 5%; width: 80%; height: 80%; top: 50%; left: 50%; transform: translate(-50%, -50%); overflow: auto; overflow-x: hidden; scrollbar-width: thin; }
+.big-markiplier { height: 80vh; width: 80vw; object-fit: contain; }
