@@ -1,6 +1,6 @@
-.container { background-color: #ADD8E6; text-align: center; font-family: Courier New, Courier, monospace; margin: 20px; border: 5px dashed #A52A2A; } 
-.title { color: #FF6347; font-size: 3em; font-weight: bold; } 
-.logo { max-width: 100%;} 
- p { font-size: 1.2em; color: #228B22; text-shadow: 2px 2px 4px #993300; } 
-.gaming-image { display: block; margin: 20px auto; } 
+.container { background-color: #E0FFFF; text-align: center; font-family: cursive; margin: 20px; border: 5px dashed #90EE90; } 
+.title { color: #808080; font-size: 2.5em; font-weight: bold; } 
+.logo2 { max-width: 100%; } 
+ p { font-size: 1.1em; color: #A52A2A; text-shadow: 2px 2px 4px #993300; } 
+.gaming-image { display: block; margin: 20px auto; width: 50%; } 
 .wojak-column {  float: left; width: 200px; padding: 10px; margin: 20px; } 
